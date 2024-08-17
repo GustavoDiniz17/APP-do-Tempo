@@ -50,6 +50,12 @@ body {
     background-color: #8dd0f5;
     color: #fff;
     cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.form button:hover {
+    background-color: #002850;
+    color: fff;
 }
 
 /*Clima*/
@@ -87,13 +93,18 @@ body {
     margin: 0.6rem 0;
 }
 
+#description{
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
 #details-container {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-#details-container #umidity{
+#details-container #humidity{
     border-right: 1px solid #fff;
     margin: 0.6rem;
     padding: 0.6rem;
