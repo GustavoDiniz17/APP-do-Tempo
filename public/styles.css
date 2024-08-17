@@ -109,3 +109,11 @@ body {
     margin: 0.6rem;
     padding: 0.6rem;
 }
+
+
+.error-message {
+    margin-top: 10px;
+    font-size: 14px;
+    font-weight: bold;
+    color: white;
+}
